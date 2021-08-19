@@ -37,3 +37,8 @@ body {
   border-radius: 5px;
   background-color: #ffffff;
 }
+
+.card:active {
+  transform: scale(0.97);
+  transition: transform 0.3s;
+}
